@@ -1,5 +1,5 @@
-const btnlikes1 = document.getElementById("btnLikes1")
-const btnlikes2 = document.getElementById("btnLikes2")
+const btnlike1 = document.getElementById("btnLikes1")
+const btnlike2 = document.getElementById("btnLikes2")
 const countLikes1 = document.getElementById("countLikes1)
 const countLikes2 = document.getElementById("countLikes2)
 
