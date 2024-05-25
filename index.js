@@ -11,4 +11,5 @@ function hitLikes2() {
    let totalLikes2 = parseInt(countLikes1.value) + 1
    countLikes2.textContent = totalLikes2.toString() 
 }
- btnLike1.addEventListener("click",hitLikes1) btnLike2.addEventListener("click",hitLikes2)
+ btnLike1.addEventListener("click",hitLikes1) 
+    btnLike2.addEventListener("click",hitLikes2)
