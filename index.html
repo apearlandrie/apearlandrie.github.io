@@ -1,76 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JPL Jewelry Collection Store</title>
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-  <title>JPL Jewelry Collection Store</title>
-  
-  <!-- HTML -->
-  
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center">
+          <h2>PJL JEWELRY COLLECTIONS STORE</h2>
+          <hr class="hr" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 text-center">
+          <label id="product1"> Pearl Set </label>
+          <img
+            src="Pearl Set.jpg"
+            style="width: 400px; height: 500px"
+            class="img-thumbnail"
+          />
+          <label for="product1" id="price1"> Php 4252.69 </label>
+          <input
+            type="number"
+            class="form-control"
+            id="qty1"
+            placeholder="Enter Quantity"
+          />
+        </div>
 
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  
-</head>
+        <div class="col-6 text-center">
+          <label id="product2"> Men Gold Watches Set Gift </label>
+          <img
+            src="Men Gold Watches Set Gift.jpg"
+            style="width: 400px; height: 500px"
+            class="img-thumbnail"
+          />
+          <label for="product2" id="price2"> Php 2472.98 </label>
+          <input
+            type="number"
+            class="form-control"
+            id="qty2"
+            placeholder="Enter Quantity"
+          />
+        </div>
+      </div>
 
-<body>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <h2> PJL JEWELRY COLLECTIONS STORE </h2>
-        <hr class="hr" />
+      <div class="row">
+        <div class="col-6 text-center">
+          <label id="product3"> Gold Plated Baby Girl Set</label>
+          <img
+            src="Gold Plated Baby Girl Set.jpg"
+            style="width: 400px; height: 500px"
+            class="img-thumbnail"
+          />
+          <label for="product3" id="price3"> Php 1401.78 </label>
+          <input
+            type="number"
+            class="form-control"
+            id="qty3"
+            placeholder="Enter Quantity"
+          />
+        </div>
+
+        <div class="col-6 text-center">
+          <label id="product4"> 22k Baby Boy Bangle Bracelet </label>
+          <img
+            src="22k Baby Boy Bangle Bracelet.jpg"
+            style="width: 400px; height: 500px"
+            class="img-thumbnail"
+          />
+          <label for="product4" id="price4"> Php 20514.61 </label>
+          <input
+            type="number"
+            class="form-control"
+            id="qty4"
+            placeholder="Enter Quantity"
+          />
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-12 text-center">
+          <label for="carts"> Order </label><br />
+          <textarea
+            class="form-control"
+            rows="10"
+            id="carts"
+            readonly
+            style="width: 350px; margin: auto; font-size: 12px"
+          ></textarea>
+          <input
+            type="text"
+            class="form-control border-0"
+            id="total"
+            readonly
+            placeholder="Total"
+          />
+          <input
+            type="number"
+            class="form-control"
+            id="cash"
+            placeholder="Cash Tendered"
+          />
+          <input
+            type="text"
+            class="form-control border-0"
+            id="change"
+            readonly
+            placeholder="Change"
+          />
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-6 text-center">
-        <label id="product1"> Pearl Set </label>
-        <img src="Pearl Set.jpg" style="width:400px; height:500px;" class="img-thumbnail">
-        <label for="product1" id="price1"> Php 4,252.69 </label>
-        <input type="number" class="form-control" id="qty1" placeholder="Enter Quantity">
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-6 text-center">
-        <label id="product2"> Men Gold Watches Set Gift </label>
-        <img src="Men Gold Watches Set Gift.jpg" style="width:400px; height:500px;" class="img-thumbnail">
-        <label for="product2" id="price2"> Php 2,472.98 </label>
-        <input type="number" class="form-control" id="qty2" placeholder="Enter Quantity">
-     
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-6 text-center">
-        <label id="product3"> Gold Plated Baby Girl Set</label>
-        <img src="Gold Plated Baby Girl Set.jpg" style="width:400px; height:500px;" class="img-thumbnail">
-        <label for="product3" id="price3"> Php 1,401.78 </label>
-        <input type="number" class="form-control" id="qty3" placeholder="Enter Quantity">
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="col-6 text-center">
-        <label id="product4"> 22k Baby Boy Bangle Bracelet </label>
-        <img src="22k Baby Boy Bangle Bracelet.jpg" style="width:400px; height:500px;" class="img-thumbnail">
-        <label for="product4" id="price4"> Php 20,514.61 </label>
-        <input type="number" class="form-control" id="qty4" placeholder="Enter Quantity">
-      </div>
-    </div>
-    
-    <div class="col-4">
-      <label for="carts"> Order </label><br>
-      <textarea class="form-control" rows="29" id="carts" cols="200" readonly style="width: 350px; height: 400px; font-size: 12px;"></textarea>
-      <input type="text" class="form-control border-0" id="total" readonly placeholder="Total"/>
-      <input type="number" class="form-control" id="cash" placeholder="Cash Tendered"/>
-      <input type="text" class="form-control border-0" id="change" readonly placeholder="Change"/>
-    </div>
-  </div>
-  <script src="index.js"></script>
-</body>
+
+    <script src="index.js"></script>
+  </body>
 </html>
